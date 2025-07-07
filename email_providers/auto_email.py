@@ -1,4 +1,5 @@
-from .one_sec_mail import generate_random_email, get_otp_from_inbox
+from email_providers.one_sec_mail import generate_random_email, get_otp_from_inbox
+
 
 temp_email_map = {}
 
